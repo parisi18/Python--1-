@@ -1,0 +1,16 @@
+s=int(input('Digite um número: '))
+print('Calculando tabuada...')
+#tabuada completa
+print('-'*12)
+print('\033[4;30m{}\033[m x \033[4;31m{:2}\033[m = {}'.format(s,1,s*1))
+print('\033[4;31m{}\033[m x \033[4;30m{:2}\033[m = {}'.format(s,2,s*2))
+print('\033[4;32m{}\033[m x \033[4;37m{:2}\033[m = {}'.format(s,3,s*3))
+print('\033[4;33m{}\033[m x \033[4;36m{:2}\033[m = {}'.format(s,4,s*4))
+print('\033[4;34m{}\033[m x \033[4;35m{:2}\033[m = {}'.format(s,5,s*5))
+print('\033[4;35m{}\033[m x \033[4;34m{:2}\033[m = {}'.format(s,6,s*6))
+print('\033[4;36m{}\033[m x \033[4;33m{:2}\033[m = {}'.format(s,7,s*7))
+print('\033[4;37m{}\033[m x \033[4;32m{:2}\033[m = {}'.format(s,8,s*8))
+print('\033[4;30m{}\033[m x \033[4;31m{:2}\033[m = {}'.format(s,9,s*9))
+print('\033[4;31m{}\033[m x \033[4;30m{:2}\033[m = {}'.format(s,10,s*10))
+print('-'*12)
+
