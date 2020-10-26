@@ -5,7 +5,7 @@ print('SELECIONE (2)- À vista no CARTAO: 5% off')
 print('SELECIONE (3)- Em até 2x no cartão: sem juros')
 print('SELECIONE (4)- 3x ou mais no cartão: 20% de juros')
 
-#pedir a condiçãoe o preço
+#pedir a condição de o preço
 s1=float(input('Qual o preço do produto? '))
 s=int(input('Selecione o método(1-4) de pagamento? '))
 
